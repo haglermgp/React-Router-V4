@@ -1,11 +1,6 @@
-import About from './About/Main'
-import Home from './Home/Main'
-import Topics from './Topics/Main'
-import Login from './Login/Main'
+import Home   from './01_Home/Main'
+
 
 export {
-  About,
-  Home,
-  Topics,
-  Login
+  Home
 }

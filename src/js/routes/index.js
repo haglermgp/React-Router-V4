@@ -7,21 +7,18 @@ import {
 } from 'react-router-dom'
 
 //components
-import AppBarMain from './dashboard/header/Main'
+
 import * as app from './app'
 
-const BasicExample = () => (
+const Index = () => (
   <Router>
     <div>
-      <AppBarMain/>
+      <h2>QuechuaLingo</h2>
       <Switch>
-        <Route exact path="/home" component={app.Home}/>
-        <Route exact path="/home/about" component={app.About}/>
-        <Route path="/home/topics" component={app.Topics}/>
-        <Route exact path="/login" component={app.Login}/>
+        <Route exact path="/" component={app.Home}/>
       </Switch>
     </div>
   </Router>
 )
 
-export default BasicExample
+export default Index
